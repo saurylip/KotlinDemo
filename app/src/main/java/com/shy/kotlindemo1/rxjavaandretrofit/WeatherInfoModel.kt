@@ -8,5 +8,6 @@ data class WeatherInfoModel(val weatherinfo : weatherinfoBean) {
 
     data class weatherinfoBean(
             val city :String ,
-            val cityId : String)
+            val cityid : String){
+    }
 }

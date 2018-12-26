@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
 
 
         //rxjava+retrofit
-        NetFactory.SERVER_API.getWeather("101190201").subscribe(object : ShyObserver<WeatherInfoModel>(){
+        NetFactory.SERVER_API.getWeather("101190301").subscribe(object : ShyObserver<WeatherInfoModel>(){
             override fun onSuccess(model: WeatherInfoModel) {
                 toast("success" + model.weatherinfo.toString())
             }

@@ -47,4 +47,11 @@ dependencies {
     implementation deps.rx
     implementation deps.rxAndroid
     implementation deps.rxKotlin
+    releaseImplementation deps.chunckRelease
+    debugImplementation deps.chuckDebug
+    implementation deps.okhttpLog
+    implementation deps.xLog
+
+    implementation 'com.android.support:design:27.1.0'
+
 }
